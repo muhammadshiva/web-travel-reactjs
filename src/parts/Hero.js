@@ -12,15 +12,14 @@ export default function Hero(props) {
     function showMostPicked() {
         window.scrollTo({
             top: props.refMostPicked.current.offsetTop - 30,
-            behavior: "smooth"
+            behavior: 'smooth'
         })
     }
-
-
 
     return (
         <section className="container pt-4">
             <div className="row alight-items-center">
+                {/* Left Item */}
                 <div className="col-auto pr-5" style={{ width: 530 }}>
                     <h1 className="font-weight-bold line-height-1 mb-3">
                         Forget Busy Work, <br />
@@ -53,7 +52,7 @@ export default function Hero(props) {
                     </div>
                 </div>
 
-
+                {/* Right Item */}
                 <div className="col-6 pl-5">
                     <div style={{ width: 520, height: 410 }}>
                         <img src={ImageHero} alt="Room with couches" className="img-fluid position-absolute" style={{ margin: '-30px 0 0 -30px', zIndex: 1 }} />
