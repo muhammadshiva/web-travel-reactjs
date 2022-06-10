@@ -1,0 +1,13 @@
+{
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Muhammad",
+  "lastName": "Shiva",
+  "emailAddress": "shivamuhammad07.com",
+  "phoneNumber": "081322928085",
+  "accountHolder": "Muhammad Shiva",
+  "bankFrom": "BCA",
+  "proofPayment": "FileData()"
+}
